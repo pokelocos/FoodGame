@@ -43,7 +43,7 @@ namespace FoodGame
             if (StaticData.Getindex() != -1)
             {
                 SceneManager.LoadScene(StaticData.GetLevelData(),LoadSceneMode.Additive);
-                prefs = new List<GameObject>(StaticData.GetLevelData().foodList);
+                //prefs = new List<GameObject>(StaticData.GetLevelData().foodList);
             }
             else
             {
@@ -136,7 +136,7 @@ namespace FoodGame
             clockImg.gameObject.SetActive(false);
             
             var data = DataManager.Data;
-            data.levelsOpen.Add(StaticData.GetNext().name); // chequear aqui si es el ultimo capitulo
+            //data.levelsOpen.Add(StaticData.GetNext().name); // chequear aqui si es el ultimo capitulo
             DataManager.Data = data;
         }
 

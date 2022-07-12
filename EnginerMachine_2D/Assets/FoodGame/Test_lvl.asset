@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 35d1d4e58666298439a1b19fbfdcb5c0, type: 3}
-  m_Name: LvlData_32
+  m_Name: Test_lvl
   m_EditorClassIdentifier: 
   foodList: []
   platformList:
